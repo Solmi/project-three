@@ -1,1 +1,3 @@
 # project-three
+
+Solmi Choi. 
