@@ -18,10 +18,12 @@ html {
   background-color: #D6F0FF; 
   padding: 1.222em;
   font-family: Helvetica, sans-serif, arial;
+  height: 100%;
 }
 
 body {
   padding: 1em;
+  height: 100%;
 }
 
 h1 {
