@@ -12,16 +12,35 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 */
 
 /* ===== BASE STYLES ===== */
+#map {
+	margin-top: 1.222em;
+	height: 100%;
+	width: 100%;
+}
+
 html {
 	font-size: 1.125em; /* 18px */
 	line-height: 1.222em;
   background-color: #D6F0FF; 
-  padding: 1.222em;
+  padding: 0;
   font-family: Helvetica, sans-serif, arial;
+	height: 100%;
 }
 
 body {
-  padding: 1em;
+  padding: 0;
+	height: 100%;
+}
+
+header {
+	background: url(../img/header3.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin-top: 1em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	color: #FFBB00;
 }
 
 h1 {
@@ -33,6 +52,36 @@ h1 {
 h2 {
   font-size: 1.4375em; /* 23 px */
   line-height: 1em;
+}
+
+form {
+	margin-top: 1.222em;
+	padding: 0.333em;
+	text-align: center;
+}
+
+label {
+	font-size: 1.333em;
+	display: block;
+}
+
+input {
+	display: inline-block;
+}
+
+input[type="search"] {
+	text-align: center;
+	padding: 0.333em;
+}
+
+input[type="submit"] {
+	text-align: center;
+	padding: 0.333em;
+}
+
+
+#country-label {
+	padding-bottom: 0.333em;
 }
 
 p,
@@ -57,10 +106,6 @@ li {
 
 li:last-child{
   padding-bottom: 0;
-}
-
-#map {
-  height: 100%;
 }
 
 /* ===== LAYOUT STYLES ===== */

@@ -4,46 +4,38 @@
     <title>Trip Plan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta charset="utf-8">
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
+    <link rel="stylesheet" media="screen" href="/css/screen.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuz2vJKPOqhC9bwfX23Cft$sWOQeWLv5Q&callback=initMap" async defer></script>
+
     </style>
   </head>
   <body>
-    <header id=header>
-      <h2>DaYe Lee</h2>
-      <h2>Solmi Choi</h2>
-    </header>
- <main>
-      <h2>Winter Vacation Trip Plan</h2>
-        <h3>Show map</h3>
+		<div id="page">
+    	<header id=header>
+      	<h2>DaYe Lee, Solmi Choi</h2>
+				<h2>Winter Vacation Trip Plan</h2>
+    	</header>
+ 		<main>
+			<form id="gh-form" name="gh-form" method="get" action="#null" >
+			<label for="gh-location">Find a place </label>
+			<label for="gh-location" id="country-label">(Las Vegas/Los Angeles/San Diego/San Fransisco)</label>
+			<input type="search" id="gh-location" name="gh-location"/>
+			<input type="submit" id="gh-submit" name="gh-submit" value="search" />
+			</form>
         <h3>San Fransisco</h3>
         <h3>Las Vegas</h3>
         <h3>Los Angeles</h3>
         <h3>San Diego</h3>
- </main>
 
-    <div id="map"></div>
-    <script src="js/site.js">
-    </script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>    
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4MEBzeIDcGLmUU_5FUPXaYJ1NQnu2msM&callback=initMap"
-    async defer></script>
-   <footer>
-      <p>
-        Copyright &copy; All rights reserved by DaYe &amp; Solmi.
-      </p>
-    </footer>
+			</div>
+		</main>
+
+    <div id="map"> </div>
+		<script src="/js/site.js"></script>
+		<footer>
+			Copyright &copy; All rights reserved by DaYe &amp; Solmi.
+		</footer>
   </body>
 </html>
 
