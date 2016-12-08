@@ -110,6 +110,12 @@ li:last-child {
   height: 40vw;
 }
 
+#plan-show {
+	padding: 1em;
+	font-size: 1em;
+	background-color: #234253;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 #plan-details {

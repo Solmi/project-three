@@ -12,7 +12,7 @@ $(document).ready(function() {
     }, function(results, status) {
       initMap(results);
     });
-
+			showInfo(state);
   });
 
 
@@ -37,5 +37,18 @@ $(document).ready(function() {
     //clear clear
     clearMap();
   }
+
+	function showInfo(info) {
+		$.get (
+			if(info == 'san francisco' ) {
+				var show = '<ul id="plan-show">' +
+				'<li class="info-label" id="plan-name">San Francisco, California</li>' +
+				'<li class="info-label" id="plan-date">Date: Dec, 14th - Dec, 17th</li>';
+			}
+
+			$('#primary').append(show);
+		);
+		event.preventDefault();
+	}
   
 });
