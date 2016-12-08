@@ -25,7 +25,7 @@ $(document).ready(function() {
       // show the map
 
     var map = new google.maps.Map(document.getElementById('map'), {
-      zoom: 5,
+      zoom: 12,
       center: state[0].geometry.location
     });
 
