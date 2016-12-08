@@ -1,7 +1,7 @@
 $(document).ready(function() {
   $('#gh-form').on('submit', function(event) {
   
-  var state = document.getElementById('gh-location').value;
+  var state = document.getElementById('gh-plan-location').value;
 
   var geocoder = new google.maps.Geocoder();
 
