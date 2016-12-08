@@ -2,41 +2,38 @@
 <html lang="en">
   <head>
     <title>Trip Plan</title>
-    <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <link rel="stylesheet" media="screen" href="css/screen.css" />
+    <meta charset="utf-8" />
+    <link rel="stylesheet" media="screen" href="/css/screen.css" />
+    </style>
   </head>
   <body>
-  	<div id="page">
-    <header id=header>
-      <h2>DaYe Lee</h2>
-      <h2>Solmi Choi</h2>
+    <div id="page">
+    <header id="header">
+      <h2>DaYe Lee, Solmi Choi</h2>
+      <h2>Winter Vacation Trip Plan</h2>
     </header>
     <main>
-      <h2>Winter Vacation Trip Plan</h2>
-        <h3>San Fransisco</h3>
-        <h3>Las Vegas</h3>
-        <h3>Los Angeles</h3>
-        <h3>San Diego</h3>
+      <form id="gh-form" name="gh-form" method="get" action="#null">
+        <label for="gh-plan-location">Show the plan</label>
+        <label for="gh-plan-location" id="plan-list-label">(Las Vegas/Los Angeles/San Diego/San Fransisco)</label>
+        <input type="search" id="gh-plan-location" name="gh-plan-location"/>
+        <input type="submit" id="gh-submit" name="gh-submit" value="submit"/>
+      </form>
+      <div class="plan-information">
+        <div id="map"></div>
+        <div id="show-plan"></div>
+      </div> 
     </main>
-        <form id="gh-form" name="gh-form" method="get" action="#null">
-          <label for="gh-plan-location">Show the plan</label>
-           <label for="gh-plan-location" id="plan-list-label">(San Fransisco/LA/Las Vegas)</label>
-          <input type="search" id="gh-plan-location" name="gh-plan-location"/>
-          <input type="submit" id="gh-submit" name="gh-submit" value="submit"/>
-        </form>
-        <div class="plan-information">
-          <div id="map"></div>
-          <div id="show-plan"></div>
-        </div> 
     <footer>
       <p>
         Copyright &copy; All rights reserved by DaYe &amp; Solmi.
       </p>   
     </footer>
     </div>
-  </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4MEBzeIDcGLmUU_5FUPXaYJ1NQnu2msM" ></script>
-  	<script src="/js/site.js"></script>
+    <script src="/js/site.js"></script>
+  </body>
 </html>
+
