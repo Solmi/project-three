@@ -1,4 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -14,9 +14,9 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* ===== BASE STYLES ===== */
 
 html {
-	font-size: 1.125em; /* 18px */
+  font-size: 1.125em;/* 18px */
 	line-height: 1.222em;
-  background-color: #D6F0FF; 
+  background-color: #D6F0FF;
   padding: 0;
   font-family: Helvetica, sans-serif, arial;
 	height: 100%;
@@ -45,7 +45,7 @@ body {
 }
 
 h1 {
-  font-size: 1.5625em; /* 25 px */  
+  font-size: 1.5625em; /* 25 px */
   line-height: 1.375em; /* 44px @ 32.004 */
   text-indent: 1em;
 }
@@ -80,7 +80,6 @@ input[type="submit"] {
 	padding: 0.333em;
 }
 
-
 #country-label {
 	padding-bottom: 0.333em;
 }
@@ -95,7 +94,7 @@ ul {
 
 img, video {
   width: 100%;
-  padding: 0.62em; 
+  padding: 0.62em;
   display: block;
 }
 
@@ -115,7 +114,6 @@ li:last-child{
 	width: 100%;
   height: 40vw;
 }
-
 
 /* ===== LAYOUT STYLES ===== */
 
